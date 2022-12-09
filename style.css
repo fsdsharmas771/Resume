@@ -1,0 +1,253 @@
+body{
+    margin:0px;
+}
+/*body header*/
+
+header{
+    height:55vh;
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+/*horizontal list*/
+
+.horizontal-list{
+    padding: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    list-style-type: none;
+    margin:15px 8px 0px 8px;
+}
+.nav-menu li a{
+    color: white;
+    text-decoration: none;
+    transition: color 1s, text-decoration 10s;   
+}
+.nav-menu li a:hover{
+    text-decoration: underline;
+    color:burlywood;
+}
+#name-social-comtainer{
+    margin-top: 15vh;
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color:white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+header h1{
+    padding: 15px 0px 15px 0px;
+}
+.text-center{
+    text-align:center;
+} 
+.social-section li a i{
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.social-section li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.2);
+}
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:left;
+    padding: 0px 200px 0px 200px;
+}
+#about img{
+    height: 150px;
+    width: 150px;
+    border: solid white 10px;
+    border-radius: 100%;
+    margin-top: -30px;
+}
+#about p span{
+    color:blue;
+    text-decoration: underline;
+}
+section:nth-child(2n+1){
+    background-color:white;
+}
+section:nth-child(2n){
+    background-color:#eaeaea;
+}
+#skills{
+    padding:30px 0px;
+}
+#skills>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width:80%;
+    /* gap: 10px; */
+} 
+.skill-display{
+    /* width: 70%; */
+    display: flex;
+    justify-content: space-around;
+    border-radius: 0.8rem;
+    margin:30px 20px;
+}
+.skill-display:hover{
+    box-shadow: 0px 0px 10px 5px  oldlace;
+}
+.skill-display>div{
+    border-radius: 20px 20px 20px 20px;
+}
+.skill-progress{
+    width:7rem;
+    height: 1.4rem;
+    background-color: grey;
+}
+.skill-progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+.mb75px{
+    margin-bottom: 75px;
+}
+.skill-name span{
+    color:white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+/*progress-color-classes*/
+.mb-blue{
+    background-color: blue;
+}
+.mb-orange{
+    background-color: orange;
+}
+.mb-green{
+    background-color:green;
+}
+.mb-cyan{
+    background-color:cyan;
+}
+.mb-red{
+    background-color: red;
+}
+.mb-purple{
+    background-color: purple;
+}
+.mb-yellow{
+    background-color: yellow;
+}
+/*percentage-classes*/
+.eighty-five-percent{
+    width:85%;
+    height: inherit;
+}
+.fifty-percent{
+    width:50%;
+    height:inherit;
+}
+.ninty-percent{
+    width:90%;
+    height:inherit;
+}
+.eighty-percent{
+    width:80%;
+    height:inherit;
+}
+.seventy-percent{
+    width:70%;
+    height:inherit;
+}
+/* work experience */
+#experience{
+    margin: 30px;
+}
+.timeline-container{
+
+    position:relative;
+    width:75%;
+    height: auto;
+}
+.experience-box:nth-child(2n){
+    left:53%;
+    text-align: start;
+}
+.experience-box{
+    padding: 5px;
+    text-align: end;
+    position:relative;
+    margin:10px;
+    width:40%;
+    height:auto;
+    left:5%;
+    
+}
+.profile{
+    color:blue;
+    font-size: 15px;
+    font-weight: 600px;
+    line-height: 2px;
+}
+.organization{
+    color:green;
+    font-size: 12px;
+    font-weight: 300px;
+    line-height: 2px;
+}
+.duration{
+    color:rgb(163, 149, 149);
+    font-size: 12px;
+    font-weight: 300px;
+    line-height: 2px;
+}
+.discription{
+    line-height: 12px;
+    font-weight: 10px;
+    font-size: 10px;
+    text-align:justify; 
+}
+.timeline-divider{
+    position: absolute;
+    width:0%;
+    height:60%;
+    border: 2px dashed rgb(169, 169, 211);
+    top:25%;
+    left:50%;
+}
+.timeline-travller{
+    position: sticky;
+    transform: rotate(90deg);
+    top:20%;
+
+}
+/* contact */
+#contact{
+    background:linear-gradient(90deg, blue,pink);
+}
+#contact>div{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+}
+.message-form{
+    width:40%;
+}
+.address{
+    flex-direction: column;
+    width: 40%;
+}
+.message-form input,textarea{
+    background-color: inherit;
+    color: black;
+    border: 0px solid white;
+    border-bottom: 1px  solid white;
+    width:100%;
+    margin:30px 0px;
+}
+button{
+    background-color: inherit;
+    padding: 20px;
+    border:1px solid white;
+}
